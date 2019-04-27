@@ -56,6 +56,5 @@ public class Syntax1 {
         int result3 = lambda6.test(1,1);
         System.out.println(result3);
         
-        what the fucking study!!!
     }
 }
