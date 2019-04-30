@@ -18,4 +18,12 @@ public class Person {
         this.age = age;
         System.out.println("Person类的有参构造方法执行了！");
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
