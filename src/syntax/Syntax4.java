@@ -20,7 +20,7 @@ public class Syntax4 {
         Person b = creater2.getPerson("fuck",18);
     }
 
-    
+
     interface PersonCreater{
         Person getPerson();
     }
