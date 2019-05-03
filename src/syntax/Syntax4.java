@@ -19,12 +19,14 @@ public class Syntax4 {
         PersdonCreater2 creater2 = Person::new;
         Person b = creater2.getPerson("fuck",18);
     }
+
+    
+    interface PersonCreater{
+        Person getPerson();
+    }
+
+    interface PersdonCreater2{
+        Person getPerson(String name,int age);
+    }
 }
 
-interface PersonCreater{
-    Person getPerson();
-}
-
-interface PersdonCreater2{
-    Person getPerson(String name,int age);
-}
